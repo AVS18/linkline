@@ -11,6 +11,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax2{
+    background-image: url('../images/parallax2.png');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    background-image: url('../images/parallax3.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .welcome-block{
     margin-left: 20px;
     margin-right: 20px;
@@ -25,6 +41,9 @@ body{
     width: 500px;
 }
 
+.half{
+    width: 400px;
+}
 .welcome-block h3{
     font-weight: 600;
     padding-top: 20px;
@@ -68,6 +87,9 @@ body{
     }
     .volt-logo{
         width: 300px;
+    }
+    .half{
+        width: 200px;
     }
 }
 
