@@ -44,7 +44,7 @@ body{
 }
 @media screen and (max-width:768px) {
     body{
-        font-weight: 600;
+        font-size: 1em;
     }
     .welcome-block{
         width: 100%;
