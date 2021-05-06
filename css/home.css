@@ -39,6 +39,9 @@ body{
 .link{
     width: 400px;
 }
+.volt-logo{
+    width: 400px;
+}
 @media screen and (max-width:768px) {
     body{
         font-weight: 400;
@@ -61,6 +64,9 @@ body{
         width: 200px;
     }       
     .f2f-logo{
+        width: 300px;
+    }
+    .volt-logo{
         width: 300px;
     }
 }
@@ -119,9 +125,12 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
-.f2f{
-    background-color: rgb(164, 245, 245);
+.normal{
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
+}
+.volt{
+    background-color: rgb(167, 243, 218);
+    
 }
