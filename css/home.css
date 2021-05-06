@@ -35,6 +35,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax5{
+    background-image: url('../images/illustrations.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .welcome-block{
     margin-left: 20px;
     margin-right: 20px;
