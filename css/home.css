@@ -61,10 +61,22 @@ body{
 .volt-logo{
     width: 400px;
 }
+
+.normal{
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 @media screen and (max-width:768px) {
     p{
         font-size: 1.1em;
         font-weight: 400;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .welcome-block{
         width: 100%;
@@ -108,6 +120,10 @@ body{
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
 }
+.heading h4{
+    color: #0066A1;
+    text-align: center;
+}
 .introduction{
     line-height: 2em;
     font-size: 1em;
@@ -148,12 +164,9 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
-.normal{
+.volt{
+    background-color: rgb(167, 243, 218);
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
-}
-.volt{
-    background-color: rgb(167, 243, 218);
-    
 }
