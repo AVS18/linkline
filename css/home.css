@@ -61,6 +61,12 @@ body{
     background-color: #0066A1;
 }
 
+.laptop{
+    display:block;
+}
+.mobile{
+    display: none;
+}
 .f2f-logo{
     width: 500px;
 }
@@ -128,6 +134,12 @@ only screen and (max-width: 760px) {
     }
     .half{
         width: 300px;
+    }
+    .laptop{
+        display: none;
+    }
+    .mobile{
+        display:block;
     }
 }
 
