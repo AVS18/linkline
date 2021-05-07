@@ -3,6 +3,9 @@ body{
     text-align: justify;
     color: black;
 }
+p{
+    font-weight: 200;
+}
 .parallax{
     background-image: url('../images/base.jpg');
     min-height: 500px;
