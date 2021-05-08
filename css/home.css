@@ -233,3 +233,7 @@ only screen and (max-width: 760px) {
 .width{
     width: 150px;
 }
+
+.upcoming h4{
+    color: #0066A1;
+}
