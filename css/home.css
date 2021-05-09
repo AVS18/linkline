@@ -66,6 +66,7 @@ p{
 
 .laptop{
     display:block;
+    text-align: left;
 }
 .mobile{
     display: none;
