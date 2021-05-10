@@ -109,6 +109,12 @@ p{
 }
 @media 
 only screen and (max-width: 760px) {
+    body{
+        color: black;
+        font-family: 'Trebuchet MS', sans-serif;
+    
+    }
+    
     p{
         font-size: 1.1em;
         font-weight: 400;
@@ -147,6 +153,11 @@ only screen and (max-width: 760px) {
     .mobile{
         display:block;
     }
+    .introduction .heading h2{
+        font-weight: 200;
+        font-family: 'Roboto', sans-serif;
+    }
+    
 }
 
 
