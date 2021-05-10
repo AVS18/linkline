@@ -6,7 +6,13 @@ body{
     text-align: justify;
     color: black;
     font-family: 'Trebuchet MS', sans-serif;
-
+    
+}
+.sight{
+    background-color: rgb(208, 240, 210);
+}
+.wie{
+    background-color: rgb(247, 232, 234);
 }
 p{
     font-weight: 400;
@@ -112,6 +118,14 @@ p{
 }
 @media 
 only screen and (max-width: 760px) {
+    .parallax{
+        background-image: url('../images/base.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     body{
         color: black;
         font-family: 'Trebuchet MS', sans-serif !important; 
