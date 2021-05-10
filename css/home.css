@@ -111,7 +111,7 @@ p{
 only screen and (max-width: 760px) {
     body{
         color: black;
-        font-family: 'Trebuchet MS', sans-serif;
+        font-family: 'Trebuchet MS', sans-serif !important; 
     
     }
     
