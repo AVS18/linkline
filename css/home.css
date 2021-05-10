@@ -69,10 +69,10 @@ p{
     margin-left: 20px;
     margin-right: 20px;
     width: 100%;
-    text-align: center;
     height: 100px;
     font-family: 'Open Sans';
     background-color: #0066A1;
+    text-align: center;
 }
 
 .laptop{
@@ -183,17 +183,21 @@ only screen and (max-width: 760px) {
     text-align:center;
 }
 .introduction .heading{
-    text-align:center;
     color: #0066A1;
+    font-size: 1em;
+    padding-bottom: 10px;
+    padding-left: 20px;
     padding-top: 50px;
 }
-.introduction .heading h2{
-    font-weight: 200;
+.introduction .heading h3{
     font-family: 'Roboto', sans-serif;
-}
-.heading h4,.heading h3{
     color: #0066A1;
     text-align: center;
+}
+.heading h4, .heading h3{
+    color: #0066A1;
+    font-family: 'Roboto', sans-serif;
+    
 }
 .introduction, .wie, .sight{
     font-size: 1em;
@@ -239,15 +243,27 @@ only screen and (max-width: 760px) {
     padding-left: 10px;
     padding-right: 10px;
 }
+.heading-wie h2{
+    color: rgb(245, 77, 105);
+    text-align: center;
+}
 
 .heading-wie h2, .heading-wie h4{
     color: rgb(245, 77, 105);
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.site h2{
+    color: rgb(49, 206, 49);
     text-align: center;
 }
 
 .site h2, .site h4{
     color: rgb(49, 206, 49);
-    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .footer{
