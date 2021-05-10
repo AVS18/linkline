@@ -2,6 +2,7 @@ body{
     background-color: azure;
     text-align: justify;
     color: black;
+    font-style: 'Open-sans',serif;
 }
 p{
     font-weight: 400;
@@ -118,7 +119,7 @@ only screen and (max-width: 760px) {
         margin: 0px;
         text-align: center;
         height: 100px;
-        font-family: 'Open Sans';
+        font-family: 'Open Sans','serif';
         background-color: #0066A1;
     }
     .welcome-block h3{
@@ -159,7 +160,7 @@ only screen and (max-width: 760px) {
 }
 .introduction .heading h2{
     font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
 }
 .heading h4,.heading h3{
     color: #0066A1;
@@ -234,6 +235,24 @@ only screen and (max-width: 760px) {
     width: 150px;
 }
 
-.upcoming h4{
+.upcoming p{
+    font-style: oblique;
+    text-align: center;
     color: #0066A1;
+}
+
+.upcoming h5{
+    color: #0066A1;
+}
+
+u{
+    color: #0066A1;
+}
+
+.sight u{
+    color: rgb(49, 206, 49);
+}
+
+.wie u{
+    color: rgb(245, 77, 105);
 }
